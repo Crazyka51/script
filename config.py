@@ -75,5 +75,5 @@ COLOR_CORRECTION_HUE_MAX = 180
 COLOR_CORRECTION_HUE_DEFAULT = 0
 
 # --- NOVÉ PRO CUDA ---
-USE_CUDA_GPU = True # Globální příznak, zda používat CUDA (nastaví se v GUI)
-CUDA_AVAILABLE = True # Indikuje, zda je CUDA skutečně detekována a dostupná
+USE_CUDA = True  # Nastavte na True pro pokus o použití CUDA, jinak False pro CPU
+CUDA_DEVICE_ID = 0 # ID CUDA zařízení, pokud jich je více (obvykle 0)

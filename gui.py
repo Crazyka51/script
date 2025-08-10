@@ -47,6 +47,7 @@ gpu_checkbox_var = None # NOVÉ: proměnná pro GPU checkbox
 cpu_label, mem_label, gpu_label = None, None, None # Pro systémové metriky
 nlm_h_entry, nlm_template_size_entry, nlm_search_size_entry = None, None, None # Pro NLM Denoise
 denoise_algo_label, denoise_algo_dropdown = None, None # Pro denoise algorithm selection
+use_cuda_var = None
 
 # Cache pro navržené parametry z analýzy
 _cached_suggested_params = {}
